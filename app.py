@@ -46,7 +46,7 @@ if st.button("Convert"):
             elif from_unit == 'kelvin' and to_unit == 'celsius':
                 result = value - 273.15
             elif from_unit == 'kelvin' and to_unit == 'fahrenheit':
-                result = (value - 273.15) * 9/5 + 32  # ✅ Fixed formula
+                result = (value - 273.15) * 9/5 + 32  
             else:
                 result = value
         else:
